@@ -11,8 +11,8 @@ public class Converter {
 
         }
         public static void main(String[] srgs) {
-            int euro = ru.job4j.Main.rubleToEuro(140);
-            int dollar = ru.job4j.Main.rubleToDollar(140);
+            int euro = ru.job4j.Converter.rubleToEuro(140);
+            int dollar = ru.job4j.Converter.rubleToDollar(140);
             System.out.println("140 rubles are " + euro + " euro.");
             System.out.println("140 rubles are " + dollar + " dollar.");
         }
