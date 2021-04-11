@@ -7,7 +7,6 @@ public class ChessBoard {
            rsl = Math.abs(y1 - x1);
            rsl = rsl == 0 ? Math.abs(y2 - x2) : rsl;
         }
-        
         return rsl;
     }
 }
