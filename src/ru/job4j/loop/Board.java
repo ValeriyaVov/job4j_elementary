@@ -2,12 +2,11 @@ package ru.job4j.loop;
 
 public class Board {
     public static void paint(int width, int height) {
-        int num = 0;
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 /* условие проверки, что писать пробел или X */
-                /* Выше в задании мы определили закономерность, когда нужно проста,влять X */
-                if (num % 2 == 0) {
+                /* Выше в задании мы определили закономерность, когда нужно просто,взять X */
+                if ((i + j) % 2 == 0) {
                     System.out.print("X");
                 } else {
                     System.out.print(" ");
